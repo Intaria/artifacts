@@ -17,7 +17,6 @@ public class ModSoundEvents {
             MIMIC_DEATH = register("entity.mimic.death"),
             MIMIC_OPEN = register("entity.mimic.open"),
             MIMIC_CLOSE = register("entity.mimic.close"),
-            FART = register("item.whoopee_cushion.fart"),
             WATER_STEP = register("block.water.step");
 
     private static RegistryObject<SoundEvent> register(String name) {

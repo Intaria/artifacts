@@ -5,11 +5,6 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "artifacts:snorkel",
-          "weight": 8
-        },
-        {
-          "type": "minecraft:item",
           "name": "artifacts:night_vision_goggles",
           "weight": 8
         },
@@ -36,16 +31,6 @@
         {
           "type": "minecraft:item",
           "name": "artifacts:flippers",
-          "weight": 8
-        },
-        {
-          "type": "minecraft:item",
-          "name": "artifacts:obsidian_skull",
-          "weight": 8
-        },
-        {
-          "type": "minecraft:item",
-          "name": "artifacts:fire_gauntlet",
           "weight": 8
         },
         {
@@ -85,22 +70,12 @@
         },
         {
           "type": "minecraft:item",
-          "name": "artifacts:scarf_of_invisibility",
-          "weight": 8
-        },
-        {
-          "type": "minecraft:item",
           "name": "artifacts:digging_claws",
           "weight": 8
         },
         {
           "type": "minecraft:item",
           "name": "artifacts:steadfast_spikes",
-          "weight": 8
-        },
-        {
-          "type": "minecraft:item",
-          "name": "artifacts:universal_attractor",
           "weight": 8
         },
         {
@@ -130,22 +105,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "artifacts:cloud_in_a_bottle",
-          "weight": 8
-        },
-        {
-          "type": "minecraft:item",
-          "name": "artifacts:vampiric_glove",
-          "weight": 8
-        },
-        {
-          "type": "minecraft:item",
           "name": "artifacts:golden_hook",
-          "weight": 8
-        },
-        {
-          "type": "minecraft:item",
-          "name": "artifacts:charm_of_sinking",
           "weight": 8
         },
         {
@@ -157,26 +117,6 @@
           "type": "minecraft:loot_table",
           "name": "artifacts:items/drinking_hat",
           "weight": 8
-        },
-        {
-          "type": "minecraft:item",
-          "name": "artifacts:umbrella",
-          "weight": 5
-        },
-        {
-          "type": "minecraft:item",
-          "name": "artifacts:whoopee_cushion",
-          "weight": 5
-        },
-        {
-          "type": "minecraft:item",
-          "name": "artifacts:helium_flamingo",
-          "weight": 4
-        },
-        {
-          "type": "minecraft:item",
-          "name": "artifacts:everlasting_beef",
-          "weight": 2
         }
       ],
       "name": "main",

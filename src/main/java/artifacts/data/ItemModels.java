@@ -21,7 +21,6 @@ public class ItemModels extends ItemModelProvider {
         ForgeRegistries.ITEMS.getValues().stream()
                 .filter(item -> ForgeRegistries.ITEMS.getKey(item).getNamespace().equals(Artifacts.MODID))
                 .filter(item -> item != ModItems.MIMIC_SPAWN_EGG.get())
-                .filter(item -> item != ModItems.UMBRELLA.get())
                 .forEach(this::addGeneratedModel);
     }
 

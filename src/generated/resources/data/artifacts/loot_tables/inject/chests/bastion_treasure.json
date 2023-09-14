@@ -27,11 +27,6 @@
         },
         {
           "type": "minecraft:item",
-          "name": "artifacts:fire_gauntlet",
-          "weight": 2
-        },
-        {
-          "type": "minecraft:item",
           "name": "artifacts:steadfast_spikes"
         },
         {

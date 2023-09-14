@@ -20,23 +20,11 @@
         },
         {
           "type": "minecraft:item",
-          "name": "artifacts:obsidian_skull"
-        },
-        {
-          "type": "minecraft:item",
           "name": "artifacts:superstitious_hat"
         },
         {
           "type": "minecraft:item",
           "name": "artifacts:digging_claws"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "artifacts:cloud_in_a_bottle"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "artifacts:vampiric_glove"
         },
         {
           "type": "minecraft:item",

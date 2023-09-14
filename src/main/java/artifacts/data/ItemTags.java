@@ -39,15 +39,9 @@ public class ItemTags extends ItemTagsProvider {
 
         tag(net.minecraft.tags.ItemTags.PIGLIN_LOVED).add(ModItems.GOLDEN_HOOK.get());
 
-        tag(CURIO).add(ModItems.WHOOPEE_CUSHION.get());
-
         tag(BELT).add(
                 ModItems.ANTIDOTE_VESSEL.get(),
-                ModItems.CLOUD_IN_A_BOTTLE.get(),
-                ModItems.CRYSTAL_HEART.get(),
-                ModItems.OBSIDIAN_SKULL.get(),
-                ModItems.UNIVERSAL_ATTRACTOR.get(),
-                ModItems.HELIUM_FLAMINGO.get()
+                ModItems.CRYSTAL_HEART.get()
         );
 
         tag(FEET).add(
@@ -62,18 +56,14 @@ public class ItemTags extends ItemTagsProvider {
         tag(HANDS).add(
                 ModItems.DIGGING_CLAWS.get(),
                 ModItems.FERAL_CLAWS.get(),
-                ModItems.FIRE_GAUNTLET.get(),
                 ModItems.POCKET_PISTON.get(),
                 ModItems.POWER_GLOVE.get(),
-                ModItems.VAMPIRIC_GLOVE.get(),
                 ModItems.GOLDEN_HOOK.get()
         );
 
         tag(HEAD).add(
                 ModItems.NIGHT_VISION_GOGGLES.get(),
-                ModItems.NOVELTY_DRINKING_HAT.get(),
                 ModItems.PLASTIC_DRINKING_HAT.get(),
-                ModItems.SNORKEL.get(),
                 ModItems.SUPERSTITIOUS_HAT.get(),
                 ModItems.VILLAGER_HAT.get()
         );
@@ -83,10 +73,8 @@ public class ItemTags extends ItemTagsProvider {
                 ModItems.FLAME_PENDANT.get(),
                 ModItems.LUCKY_SCARF.get(),
                 ModItems.PANIC_NECKLACE.get(),
-                ModItems.SCARF_OF_INVISIBILITY.get(),
                 ModItems.SHOCK_PENDANT.get(),
-                ModItems.THORN_PENDANT.get(),
-                ModItems.CHARM_OF_SINKING.get()
+                ModItems.THORN_PENDANT.get()
         );
     }
 }

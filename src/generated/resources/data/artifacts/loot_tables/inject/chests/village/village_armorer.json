@@ -21,10 +21,6 @@
         {
           "type": "minecraft:item",
           "name": "artifacts:running_shoes"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "artifacts:vampiric_glove"
         }
       ],
       "rolls": 1.0

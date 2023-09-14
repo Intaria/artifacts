@@ -18,15 +18,6 @@
         {
           "type": "minecraft:item",
           "name": "artifacts:crystal_heart"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "artifacts:cloud_in_a_bottle"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "artifacts:helium_flamingo",
-          "weight": 4
         }
       ],
       "rolls": 1.0

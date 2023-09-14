@@ -32,7 +32,7 @@ public class SwimHandler {
     }
 
     public static boolean isSinking(LivingEntity entity) {
-        return !ModConfig.server.isCosmetic(ModItems.CHARM_OF_SINKING.get()) && ModItems.CHARM_OF_SINKING.get().isEquippedBy(entity);
+        return false;
     }
 
     public boolean isWet() {
@@ -44,12 +44,14 @@ public class SwimHandler {
     }
 
     public void setSwimming(boolean shouldSwim) {
+        /*
         if (this.shouldSwim && !shouldSwim) {
             int rechargeTime = ModConfig.server.heliumFlamingo.rechargeTime.get();
             int maxFlightTime = ModConfig.server.heliumFlamingo.maxFlightTime.get();
 
             setSwimTime((int) (-rechargeTime * getSwimTime() / (float) maxFlightTime));
         }
+        */
 
         this.shouldSwim = shouldSwim;
     }

@@ -109,21 +109,6 @@ public class HeadModel extends HumanoidModel<LivingEntity> {
         return createHat(head);
     }
 
-    public static MeshDefinition createSnorkel() {
-        CubeListBuilder head = CubeListBuilder.create();
-        CubeListBuilder tube = CubeListBuilder.create();
-
-        // mouth thingy
-        head.texOffs(32, 0);
-        head.addBox(-2, -1.5F, -6, 8, 2, 2);
-
-        // tube
-        tube.texOffs(0, 16);
-        tube.addBox(4.01F, -5, -3, 2, 2, 12);
-
-        return createDiagonalHat(head, tube, "tube");
-    }
-
     public static MeshDefinition createSuperstitiousHat() {
         CubeListBuilder head = CubeListBuilder.create();
 
@@ -142,19 +127,5 @@ public class HeadModel extends HumanoidModel<LivingEntity> {
         head.addBox(-8, -5.125F, -8, 16, 0, 16);
 
         return createHat(head);
-    }
-
-    public static MeshDefinition createWhoopeeCushion() {
-        CubeListBuilder head = CubeListBuilder.create();
-
-        // cushion
-        head.texOffs(0, 0);
-        head.addBox(-3, -10, -3, 6, 2, 6);
-
-        // flap
-        head.texOffs(0, 8);
-        head.addBox(-2, -9.25F, 3, 4, 0, 4);
-
-        return createEmptyHat(head);
     }
 }

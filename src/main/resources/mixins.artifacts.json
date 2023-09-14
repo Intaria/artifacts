@@ -7,15 +7,8 @@
     "DigDurabilityEnchantmentMixin",
     "item.aquadashers.EntityMixin",
     "item.diggingclaws.ServerPlayerGameModeMixin",
-    "item.umbrella.EntityMixin",
     "item.villagerhat.AbstractVillagerMixin",
     "item.villagerhat.VillagerMixin"
-  ],
-  "client": [
-    "item.umbrella.HumanoidModelMixin"
-  ],
-  "server": [
-    "item.umbrella.ServerGamePacketListenerImplMixin"
   ],
   "injectors": {
     "defaultRequire": 1

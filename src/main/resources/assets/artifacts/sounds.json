@@ -33,13 +33,6 @@
     ],
     "subtitle": "artifacts.subtitles.entity.mimic.death"
   },
-  "item.whoopee_cushion.fart": {
-    "sounds": [
-      "artifacts:fart1",
-      "artifacts:fart2"
-    ],
-    "subtitle": "artifacts.subtitles.item.whoopee_cushion.fart"
-  },
   "block.water.step": {
     "sounds": [
       "entity/fish/flop1",

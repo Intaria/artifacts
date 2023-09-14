@@ -24,10 +24,6 @@
           "type": "minecraft:item",
           "name": "artifacts:flame_pendant",
           "weight": 3
-        },
-        {
-          "type": "minecraft:item",
-          "name": "artifacts:everlasting_beef"
         }
       ],
       "rolls": 1.0

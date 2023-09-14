@@ -14,7 +14,6 @@ public class CurioLayers {
 
     public static final ModelLayerLocation
             DRINKING_HAT = createLayerLocation("drinking_hat"),
-            SNORKEL = createLayerLocation("snorkel"),
             NIGHT_VISION_GOGGLES = createLayerLocation("night_vision_goggles"),
             SUPERSTITIOUS_HAT = createLayerLocation("superstitious_hat"),
             VILLAGER_HAT = createLayerLocation("villager_hat"),
@@ -23,14 +22,9 @@ public class CurioLayers {
             CROSS_NECKLACE = createLayerLocation("cross_necklace"),
             PANIC_NECKLACE = createLayerLocation("panic_necklace"),
             PENDANT = createLayerLocation("pendant"),
-            CHARM_OF_SINKING = createLayerLocation("charm_of_sinking"),
 
-            CLOUD_IN_A_BOTTLE = createLayerLocation("cloud_in_a_bottle"),
-            OBSIDIAN_SKULL = createLayerLocation("obsidian_skull"),
             ANTIDOTE_VESSEL = createLayerLocation("antidote_vessel"),
-            UNIVERSAL_ATTRACTOR = createLayerLocation("universal_attractor"),
             CRYSTAL_HEART = createLayerLocation("crystal_heart"),
-            HELIUM_FLAMINGO = createLayerLocation("helium_flamingo"),
 
             CLAWS = createLayerLocation("claws"),
             SLIM_CLAWS = createLayerLocation("slim_claws"),
@@ -44,9 +38,7 @@ public class CurioLayers {
             KITTY_SLIPPERS = createLayerLocation("kitty_slippers"),
             RUNNING_SHOES = createLayerLocation("running_shoes"),
             STEADFAST_SPIKES = createLayerLocation("steadfast_spikes"),
-            FLIPPERS = createLayerLocation("flippers"),
-
-            WHOOPEE_CUSHION = createLayerLocation("whoopee_cushion");
+            FLIPPERS = createLayerLocation("flippers");
 
     public static ModelLayerLocation claws(boolean smallArms) {
         return smallArms ? SLIM_CLAWS : CLAWS;
@@ -74,7 +66,6 @@ public class CurioLayers {
 
     public static void register(EntityRenderersEvent.RegisterLayerDefinitions event) {
         register(event, DRINKING_HAT, layer(HeadModel.createDrinkingHat(), 64, 32));
-        register(event, SNORKEL, layer(HeadModel.createSnorkel(), 64, 32));
         register(event, NIGHT_VISION_GOGGLES, layer(HeadModel.createNightVisionGoggles(), 32, 32));
         register(event, SUPERSTITIOUS_HAT, layer(HeadModel.createSuperstitiousHat(), 64, 32));
         register(event, VILLAGER_HAT, layer(HeadModel.createVillagerHat(), 32, 32));
@@ -83,14 +74,9 @@ public class CurioLayers {
         register(event, CROSS_NECKLACE, layer(NecklaceModel.createCrossNecklace(), 64, 48));
         register(event, PANIC_NECKLACE, layer(NecklaceModel.createPanicNecklace(), 64, 48));
         register(event, PENDANT, layer(NecklaceModel.createPendant(), 64, 48));
-        register(event, CHARM_OF_SINKING, layer(NecklaceModel.createCharmOfSinking(), 64, 48));
 
-        register(event, CLOUD_IN_A_BOTTLE, layer(BeltModel.createCloudInABottle(), 32, 32));
-        register(event, OBSIDIAN_SKULL, layer(BeltModel.createObsidianSkull(), 32, 32));
         register(event, ANTIDOTE_VESSEL, layer(BeltModel.createAntidoteVessel(), 32, 32));
-        register(event, UNIVERSAL_ATTRACTOR, layer(BeltModel.createUniversalAttractor(), 32, 32));
         register(event, CRYSTAL_HEART, layer(BeltModel.createCrystalHeart(), 32, 32));
-        register(event, HELIUM_FLAMINGO, layer(BeltModel.createHeliumFlamingo(), 64, 64));
 
         register(event, CLAWS, layer(ArmsModel.createClaws(false), 32, 16));
         register(event, SLIM_CLAWS, layer(ArmsModel.createClaws(true), 32, 16));
@@ -105,7 +91,5 @@ public class CurioLayers {
         register(event, RUNNING_SHOES, layer(LegsModel.createRunningShoes(), 32, 32));
         register(event, STEADFAST_SPIKES, layer(LegsModel.createSteadfastSpikes(), 64, 32));
         register(event, FLIPPERS, layer(LegsModel.createFlippers(), 64, 64));
-
-        register(event, WHOOPEE_CUSHION, layer(HeadModel.createWhoopeeCushion(), 32, 16));
     }
 }

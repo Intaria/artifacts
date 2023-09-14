@@ -37,14 +37,13 @@ public class JEIPlugin implements IModPlugin {
             if (item instanceof ArtifactItem) {
                 if (ModConfig.server.isCosmetic(item)) {
                     registration.addIngredientInfo(new ItemStack(item), VanillaTypes.ITEM_STACK, Component.translatable("artifacts.cosmetic.jei"));
-                } else if (item != ModItems.NOVELTY_DRINKING_HAT.get()) {
+                } else  {
                     List<Component> textComponents = new ArrayList<>();
                     item.appendHoverText(new ItemStack(item), null, textComponents, TooltipFlag.Default.NORMAL);
                     textComponents.forEach(component -> ((MutableComponent) component).setStyle(Style.EMPTY));
                     registration.addIngredientInfo(new ItemStack(item), VanillaTypes.ITEM_STACK, textComponents.toArray(new Component[]{}));
                 }
             }
-        }
-        registration.addIngredientInfo(new ItemStack(ModItems.NOVELTY_DRINKING_HAT.get()), VanillaTypes.ITEM_STACK, Component.translatable("item.artifacts.plastic_drinking_hat.tooltip"));
+        };
     }
 }
