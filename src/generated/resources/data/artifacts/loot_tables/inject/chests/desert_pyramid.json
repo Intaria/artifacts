@@ -19,7 +19,7 @@
           "type": "minecraft:item",
           "name": "artifacts:thorn_pendant",
           "weight": 2
-        }
+        },
         {
           "type": "minecraft:item",
           "name": "artifacts:shock_pendant"
