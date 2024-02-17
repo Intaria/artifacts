@@ -22,7 +22,7 @@ import net.minecraft.world.level.levelgen.feature.FeaturePlaceContext;
 import net.minecraft.world.level.levelgen.feature.configurations.NoneFeatureConfiguration;
 import net.minecraft.world.level.levelgen.feature.stateproviders.BlockStateProvider;
 import net.minecraft.world.level.levelgen.feature.stateproviders.WeightedStateProvider;
-import net.minecraftforge.common.Tags;
+import artifacts.common.init.ModTags;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -223,7 +223,7 @@ public class CampsiteFeature extends Feature<NoneFeatureConfiguration> {
             } else if (ModConfig.common.useModdedChests.get()) {
                 // noinspection deprecation
                 chest = Registry.BLOCK
-                        .getTag(Tags.Blocks.CHESTS_WOODEN)
+                    .getTag(ModTags.CAMPSITE_CHESTS)
                         .flatMap((set) -> set.getRandomElement(random))
                         .map(Holder::value)
                         .orElse(Blocks.CHEST)
