@@ -58,7 +58,7 @@ public class MimicChestLayer extends RenderLayer<MimicEntity, MimicModel> {
 
         if (!isChristmas && ModList.get().isLoaded("lootr")) {
             ResourceLocation chestLocation = new ResourceLocation("lootr", "chest");
-            chestMaterials.add(new Material(TextureAtlas.LOCATION_BLOCKS, chestLocation));
+            chestMaterials.add(new Material(Sheets.CHEST_SHEET, chestLocation));
         } else {
             if (!isChristmas && ModList.get().isLoaded("quark")) {
                 ResourceLocation atlas = new ResourceLocation("textures/atlas/chest.png");
